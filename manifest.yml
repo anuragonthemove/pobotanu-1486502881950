@@ -6,8 +6,7 @@ applications:
   name: pobotanu
   host: pobotanu
   disk_quota: 1024M
-  name: PO_BOT
-  env:
-  CONVERSATION_WORKSPACE_ID: ca4d7ddf-46d9-4716-b1c6-bd3cc8fbce49
+  env: 
+    CONVERSATION_WORKSPACE_ID: ca4d7ddf-46d9-4716-b1c6-bd3cc8fbce49
 
  
