@@ -11,6 +11,7 @@ public class Configuration {
 
 
 	public static final String SERVICE_CONVERSATION = "conversation";
+	public static final String TOKEN_API_URL = "https://stream.watsonplatform.net/authorization/api/v1/token";
 
 
 	public String CONVERSATION_API_URL = "https://gateway.watsonplatform.net/conversation/api";
