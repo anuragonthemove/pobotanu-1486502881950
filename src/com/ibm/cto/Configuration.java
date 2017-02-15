@@ -9,18 +9,25 @@ public class Configuration {
 
 	private static Configuration instance = null;
 
-
+	public static final String SERVICE_SPEECH_TO_TEXT = "speech_to_text";
+	public static final String SERVICE_TEXT_TO_SPEECH = "text_to_speech";
 	public static final String SERVICE_CONVERSATION = "conversation";
 	public static final String TOKEN_API_URL = "https://stream.watsonplatform.net/authorization/api/v1/token";
 
-
+	public String SPEECH_TO_TEXT_API_URL = "https://stream.watsonplatform.net/speech-to-text/api";
+	public String TEXT_TO_SPEECH_API_URL = "https://stream.watsonplatform.net/text-to-speech/api";
 	public String CONVERSATION_API_URL = "https://gateway.watsonplatform.net/conversation/api";
 
 	/**
 	 * TODO: If you're testing this application locally, please get the credentials from Bluemix
 	 */
 
+	public String TEXT_TO_SPEECH_USERNAME = "";
+	public String TEXT_TO_SPEECH_PASSWORD = "";
 
+	public String SPEECH_TO_TEXT_USERNAME = "";
+	public String SPEECH_TO_TEXT_PASSWORD = "";
+	
 	public String CONVERSATION_USERNAME = "a78f2740-3c32-4dcc-a947-75414266194b";
 	public String CONVERSATION_PASSWORD = "Lm65w0UPd5lm";
 
