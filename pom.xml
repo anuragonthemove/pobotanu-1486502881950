@@ -5,7 +5,7 @@
   <version>0.0.1</version>
   <packaging>war</packaging>
   <name>Chatbot</name>
-  <description>Build your own chatbot on the Innovation Day</description>
+  <description>chatbot</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
